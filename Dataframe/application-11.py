@@ -37,6 +37,7 @@ def main():
 	print("The where columns matches 80 and print thier integers and columns")
 	data = df.loc[df["Age"] == 80]
 	print(data["Integers"])
+	
 
 if __name__ == '__main__':
 	main()
